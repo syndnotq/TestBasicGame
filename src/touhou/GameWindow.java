@@ -23,6 +23,7 @@ public class GameWindow extends Frame {
 
     private void setupWindow() {
         this.setSize(1024, 768);
+        this.setTitle("Test Basic Game");
         this.setVisible(true);
         this.addWindowListener(new WindowAdapter() {
             @Override
